@@ -1,8 +1,12 @@
-import React from 'react'
+import { Hero7 } from './components/hero7'
+import { Signup1 } from './components/signup1'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Hero7 />
+      <Signup1 />
+    </div>
   )
 }
 
